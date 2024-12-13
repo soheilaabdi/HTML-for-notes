@@ -1,133 +1,133 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="wD7rxCE6tGwrO4FVVeKp">
-    <mxGraphModel>
+    <mxGraphModel dx="2350" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Oracle Database Architecture" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="8" y="8" width="1595" height="1792" as="geometry" />
+        <mxCell id="2" value="Oracle Database Architecture" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="8" width="1595" height="1792" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Background Processes" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="2">
+        <mxCell id="3" value="Background Processes" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="2" vertex="1">
           <mxGeometry x="553" y="43" width="506" height="317" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Listener" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="3">
+        <mxCell id="4" value="Listener" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="3" vertex="1">
           <mxGeometry x="43" y="80" width="166" height="173" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="LSNR" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="4">
+        <mxCell id="5" value="LSNR" style="whiteSpace=wrap;strokeWidth=2;" parent="4" vertex="1">
           <mxGeometry x="43" y="71" width="96" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Dispatcher (Dnnn)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="3">
+        <mxCell id="6" value="Dispatcher (Dnnn)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="3" vertex="1">
           <mxGeometry x="259" y="58" width="220" height="217" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="D001" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="6">
+        <mxCell id="7" value="D001" style="whiteSpace=wrap;strokeWidth=2;" parent="6" vertex="1">
           <mxGeometry x="71" y="43" width="95" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="D002" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="6">
+        <mxCell id="8" value="D002" style="whiteSpace=wrap;strokeWidth=2;" parent="6" vertex="1">
           <mxGeometry x="71" y="141" width="95" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="Shared Memory" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="2">
+        <mxCell id="9" value="Shared Memory" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="2" vertex="1">
           <mxGeometry x="448" y="410" width="715" height="317" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="Library Cache" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="9">
+        <mxCell id="10" value="Library Cache" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="9" vertex="1">
           <mxGeometry x="43" y="80" width="357" height="173" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="Library1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="10">
+        <mxCell id="11" value="Library1" style="whiteSpace=wrap;strokeWidth=2;" parent="10" vertex="1">
           <mxGeometry x="43" y="71" width="119" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="Library2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="10">
+        <mxCell id="12" value="Library2" style="whiteSpace=wrap;strokeWidth=2;" parent="10" vertex="1">
           <mxGeometry x="212" y="71" width="119" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="Buffer Cache" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="9">
+        <mxCell id="13" value="Buffer Cache" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="9" vertex="1">
           <mxGeometry x="450" y="58" width="238" height="217" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="Buffer1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="13">
+        <mxCell id="14" value="Buffer1" style="whiteSpace=wrap;strokeWidth=2;" parent="13" vertex="1">
           <mxGeometry x="71" y="43" width="113" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="Buffer2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="13">
+        <mxCell id="15" value="Buffer2" style="whiteSpace=wrap;strokeWidth=2;" parent="13" vertex="1">
           <mxGeometry x="71" y="141" width="113" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="Background Processes" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="2">
+        <mxCell id="16" value="Background Processes" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="2" vertex="1">
           <mxGeometry x="46" y="777" width="1520" height="423" as="geometry" />
         </mxCell>
-        <mxCell id="17" value="Buffer Cache Processes" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="16">
+        <mxCell id="17" value="Buffer Cache Processes" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="16" vertex="1">
           <mxGeometry x="43" y="58" width="634" height="323" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="Database Block Server Processes (DBnn)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="17">
+        <mxCell id="18" value="Database Block Server Processes (DBnn)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="17" vertex="1">
           <mxGeometry x="43" y="71" width="295" height="198" as="geometry" />
         </mxCell>
-        <mxCell id="19" value="DB1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="18">
+        <mxCell id="19" value="DB1" style="whiteSpace=wrap;strokeWidth=2;" parent="18" vertex="1">
           <mxGeometry x="43" y="83" width="87" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="20" value="DB2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="18">
+        <mxCell id="20" value="DB2" style="whiteSpace=wrap;strokeWidth=2;" parent="18" vertex="1">
           <mxGeometry x="180" y="83" width="87" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="21" value="Database Writer Processes (DBWn)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="17">
+        <mxCell id="21" value="Database Writer Processes (DBWn)" style="whiteSpace=wrap;strokeWidth=2;" parent="17" vertex="1">
           <mxGeometry x="388" y="144" width="220" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="22" value="Job Queue Processes (Jnnn)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="16">
+        <mxCell id="22" value="Job Queue Processes (Jnnn)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="16" vertex="1">
           <mxGeometry x="727" y="111" width="218" height="217" as="geometry" />
         </mxCell>
-        <mxCell id="23" value="J001" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="22">
+        <mxCell id="23" value="J001" style="whiteSpace=wrap;strokeWidth=2;" parent="22" vertex="1">
           <mxGeometry x="71" y="43" width="93" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="24" value="J002" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="22">
+        <mxCell id="24" value="J002" style="whiteSpace=wrap;strokeWidth=2;" parent="22" vertex="1">
           <mxGeometry x="71" y="141" width="93" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="25" value="Recoverer (RECO)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="16">
+        <mxCell id="25" value="Recoverer (RECO)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="16" vertex="1">
           <mxGeometry x="995" y="160" width="223" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="26" value="RECO" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="25">
+        <mxCell id="26" value="RECO" style="whiteSpace=wrap;strokeWidth=2;" parent="25" vertex="1">
           <mxGeometry x="71" y="43" width="98" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="27" value="Archiver (ARCH)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="16">
+        <mxCell id="27" value="Archiver (ARCH)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="16" vertex="1">
           <mxGeometry x="1268" y="160" width="225" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="28" value="ARCH" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="27">
+        <mxCell id="28" value="ARCH" style="whiteSpace=wrap;strokeWidth=2;" parent="27" vertex="1">
           <mxGeometry x="71" y="43" width="100" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="29" value="Server Processes" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="2">
+        <mxCell id="29" value="Server Processes" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="2" vertex="1">
           <mxGeometry x="124" y="1250" width="1363" height="317" as="geometry" />
         </mxCell>
-        <mxCell id="30" value="Process Monitor Processes (PMON)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="29">
+        <mxCell id="30" value="Process Monitor Processes (PMON)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="29" vertex="1">
           <mxGeometry x="43" y="80" width="192" height="173" as="geometry" />
         </mxCell>
-        <mxCell id="31" value="PMON" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="30">
+        <mxCell id="31" value="PMON" style="whiteSpace=wrap;strokeWidth=2;" parent="30" vertex="1">
           <mxGeometry x="43" y="71" width="101" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="32" value="System Monitor Processes (SMON)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="29">
+        <mxCell id="32" value="System Monitor Processes (SMON)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="29" vertex="1">
           <mxGeometry x="285" y="107" width="225" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="33" value="SMON" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="32">
+        <mxCell id="33" value="SMON" style="whiteSpace=wrap;strokeWidth=2;" parent="32" vertex="1">
           <mxGeometry x="71" y="43" width="100" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="34" value="Checkpoint (CKPT)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="29">
+        <mxCell id="34" value="Checkpoint (CKPT)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="29" vertex="1">
           <mxGeometry x="560" y="107" width="222" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="35" value="CKPT" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="34">
+        <mxCell id="35" value="CKPT" style="whiteSpace=wrap;strokeWidth=2;" parent="34" vertex="1">
           <mxGeometry x="71" y="43" width="97" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="36" value="Log Writer (LGWR)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="29">
+        <mxCell id="36" value="Log Writer (LGWR)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="29" vertex="1">
           <mxGeometry x="833" y="107" width="227" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="37" value="LGWR" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="36">
+        <mxCell id="37" value="LGWR" style="whiteSpace=wrap;strokeWidth=2;" parent="36" vertex="1">
           <mxGeometry x="71" y="43" width="102" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="38" value="DB Writer (DBWn)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="29">
+        <mxCell id="38" value="DB Writer (DBWn)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="29" vertex="1">
           <mxGeometry x="1110" y="58" width="226" height="217" as="geometry" />
         </mxCell>
-        <mxCell id="39" value="DBW1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="38">
+        <mxCell id="39" value="DBW1" style="whiteSpace=wrap;strokeWidth=2;" parent="38" vertex="1">
           <mxGeometry x="71" y="43" width="101" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="40" value="DBW2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="38">
+        <mxCell id="40" value="DBW2" style="whiteSpace=wrap;strokeWidth=2;" parent="38" vertex="1">
           <mxGeometry x="71" y="141" width="101" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="41" value="User Processes" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="2">
+        <mxCell id="41" value="User Processes" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="2" vertex="1">
           <mxGeometry x="645" y="1617" width="320" height="148" as="geometry" />
         </mxCell>
-        <mxCell id="42" value="User1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="41">
+        <mxCell id="42" value="User1" style="whiteSpace=wrap;strokeWidth=2;" parent="41" vertex="1">
           <mxGeometry x="43" y="58" width="100" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="43" value="User2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="41">
+        <mxCell id="43" value="User2" style="whiteSpace=wrap;strokeWidth=2;" parent="41" vertex="1">
           <mxGeometry x="193" y="58" width="100" height="48" as="geometry" />
         </mxCell>
       </root>
